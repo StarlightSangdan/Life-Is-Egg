@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+-   next 실행시키는 법은 아래와 같습니다. 레포지토리를 로컬에 옮기면 함 켜봅시다.
 
 ```bash
 npm run dev
@@ -14,21 +12,39 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 과제 설명
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. 구현체를 담은 tsx 코드는 /src/app/components 안에 작성합니다.
+2. 테스트 돌려봅니다. 루트 폴더에서 아래 명령어 실행합니다.
 
-## Learn More
+    ```bash
+     npm run test
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3. 모든 테스트 모두 통과시 합격, 대충 아래처럼 모두 패스되면 ok!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    Test Suites: 3 passed, 3 total
+    Tests:       5 passed, 5 total
+    Snapshots:   0 total
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. 그리고 다음 단계 진행해 보겠습니다.(서버 테스트, redux-toolkit)
 
-## Deploy on Vercel
+<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**지금 발전 정도라면 이건 충분히 할 수 있을거라고 봅니다.**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+_기한 3일_
+
+<br/>
+<br/>
+<br/>
+
+# 참고링크
+
+1. react hook [리액트 훅](https://react.dev/reference/react)
+
+2. async await [자바(타입)스크립트 async await](https://joshua1988.github.io/web-development/javascript/js-async-await/)
+
+3. jest (test) [자바스크립트 테스트 도구 jest(제스트)](https://jestjs.io/)
