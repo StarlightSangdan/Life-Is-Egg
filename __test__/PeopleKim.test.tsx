@@ -3,6 +3,24 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 
+interface testPeopleKimProps {
+    name: string;
+    age: number;
+}
+
+const PeopleKimProps = (props: testPeopleKimProps) =>  {
+    return (
+        <div>
+            <li>{props.name}</li>
+            <li>{props.age}</li>
+        </div>
+    );
+}
+
+const PeopleKim = () => {
+    return <div>People Kim</div>;
+}
+
 describe("화면에 People Kim이라는 글자를 출력할 수 있습니다.", () => {
     it("People Kim이라는 글자를 가진 요소가 화면에 있다.", () => {
         render(<PeopleKim />);
